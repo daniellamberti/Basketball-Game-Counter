@@ -49,12 +49,6 @@ function scorePointsGuest(name, num, text) {
     }
 }
 
-function resetHomeScore() {
-    totalHomeScore = 0;
-    totalHomeScoreEl.textContent = "0";
-    totalHomeScoreEl.style.backgroundColor = 'black';
-}
-
 function newGame() {
     totalHomeScore = 0;
     totalGuestScore = 0;
