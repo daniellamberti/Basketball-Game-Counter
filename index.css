@@ -65,7 +65,7 @@ button {
 
 #reset-button {
     display: block;
-    margin: 0 auto;
+    margin: auto;
     margin-top: -70px;
     width: 160px;
     height: 40px;
