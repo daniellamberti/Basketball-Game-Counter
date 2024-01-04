@@ -16,7 +16,6 @@
                 <button id="scoreCount" onclick="(scorePointsHome(homeScore, 2, totalHomeScoreEl))">+2</button>
                 <button id="scoreCount" onclick="(scorePointsHome(homeScore, 3, totalHomeScoreEl))">+3</button>
                 </div>
-                <button id="reset-button" onclick="(resetHomeScore())">Reset HOME Score</button>
             </div>
 
             <div>
@@ -27,9 +26,9 @@
                     <button id="scoreCount" onclick="(scorePointsGuest(guestScore, 2, totalGuestScoreEl))">+2</button>
                     <button id="scoreCount" onclick="(scorePointsGuest(guestScore, 3, totalGuestScoreEl))">+3</button>
                 </div>
-                <button id="reset-button" onclick="(resetGuestScore())">Reset GUEST Score</button>
             </div>
         </div>
+        <button id="reset-button" onclick="(newGame())">Play A New Game</button>
         <script src="index.js"></script>
     </body>
 </html>

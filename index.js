@@ -55,8 +55,11 @@ function resetHomeScore() {
     totalHomeScoreEl.style.backgroundColor = 'black';
 }
 
-function resetGuestScore() {
+function newGame() {
+    totalHomeScore = 0;
     totalGuestScore = 0;
+    totalHomeScoreEl.textContent = "0";
+    totalHomeScoreEl.style.backgroundColor = 'black';
     totalGuestScoreEl.textContent = "0";
     totalGuestScoreEl.style.backgroundColor = 'black';
 }
