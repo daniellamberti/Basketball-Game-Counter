@@ -1,3 +1,9 @@
+html {
+font-size: 16px;
+}
+
+
+
 body {
     margin: 0;
     background-image: url("basketball_1.jpg");
@@ -7,13 +13,13 @@ body {
 
 .container {
     font-family: Verdana, sans-serif;
-    width: 575px;
-    height: 415px;
+    width: 45%;
+    height: 25rem;
     display: flex;
     justify-content: space-around;
     background-color: #202d68;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 7%;
     color: white;
     border-radius: 12px;
 }
@@ -23,7 +29,7 @@ h2 {
     font-size: 2.5rem;
     line-height: 35.9px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 35%;
 }
 
 h3 {
@@ -36,8 +42,8 @@ h3 {
     color: red;
     background-color: black;
     text-align: center;
-    width: 155px;
-    height: 120px;  
+    width: 80%;
+    height: 30%;  
 }
 
 #counterButtons {
@@ -61,15 +67,161 @@ button {
     background-color: #1B244A;
     border: 1px solid white;
     text-align: center;
+    font-size: 1rem;
 }
 
 #reset-button {
     display: block;
     margin: auto;
     margin-top: -70px;
-    width: 160px;
+    width: 20%;
     height: 40px;
     background-color: rgb(99, 84, 84);
     border: 4px solid black;
     font-size: 0.9em;
+}
+
+@media screen and (max-width: 860px) {
+    h2 {
+    font-size: 2rem;
+    }
+
+    h3 {
+        width: 70%;
+        font-size: 4.4rem;
+    }
+
+    button {
+        margin-right: 7px;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container {
+        margin-top: 4%;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 726px) {
+    .container {
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .container {
+        margin-top: 2%;
+        width: 42%;
+        height: 22rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        }
+
+    h3 {
+        width: 60%;
+        height: 25%;
+        font-size: 3.8rem;
+    }
+
+    button {
+        margin-right: 4px;
+        width: 30px;
+        height: 30px;
+        font-size: 0.6rem;
+    }
+
+    #reset-button {
+        width: 23%;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 596px) {
+    .container {
+        margin-top: 2%;
+        width: 40%;
+        height: 20rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        }
+
+    h3 {
+        width: 50%;
+        height: 20%;
+        font-size: 3rem;
+    }
+
+    button {
+        margin-right: 2px;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        margin-top: 2%;
+        width: 40%;
+        height: 17rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        }
+
+    h3 {
+        width: 40%;
+        height: 15%;
+        font-size: 3rem;
+    }
+
+    button {
+        margin-right: 5px;
+        width: 20px;
+        height: 20px;
+        font-size: 0.4rem;
+    }
+
+    #reset-button {
+        width: 26%;
+        font-size: 0.65rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .container {
+        margin-top: 3%;
+        width: 35%;
+        height: 15rem;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+        }
+
+    h3 {
+        width: 35%;
+        height: 10%;
+        font-size: 2rem;
+    }
+
+    button {
+        margin-right: 3px;
+        width: 18px;
+        height: 18px;
+    }
+
+    #reset-button {
+        width: 32%;
+    }
 }
